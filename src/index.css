@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+html,body{
+  background-color: #e7e7e7;
+}
+
+.wrapper{
+  max-width: 1200px;
+  height: auto;
+  margin: 30px auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+h2{
+  text-align: center;
+}
+h3{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-and-todo-box{
+  width: 500px;
+  margin: auto;
+  height: auto;
+}
+
+.form-and-todo-box .input-and-button{
+  height: 45px;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+}
+
+.form-and-todo-box .input-and-button input{
+  width: 92%;
+  height: 100%;
+  outline: none;
+  border: none;
+  text-indent: 2px;
+  font-size: 16px;
+  padding: 5px;
+  /* border: 2px solid #f92c0f; */
+}
+
+.form-and-todo-box .input-and-button button{
+  width: 12%;
+  height: 100%;
+  background-color: #ce3a27;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:-1px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.todoTxtValue
+{
+      margin-right: 346px;
+    margin-top: -5px;
+}
+
+.form-and-todo-box .input-and-button .button.edit{
+  width: auto;
+  padding: 0px 10px;
+}
+
+
+
+
+.todo{
+  margin: 15px 0px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid;
+  padding-bottom: 5px;
+}
+
+.todo input{
+  margin-right: 5px;
+}
+
+.todo span{
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.todo .edit-and-delete{
+  display: flex;
+  cursor: pointer;
+}
+
+.delete-all{
+  padding: 10px;
+  cursor: pointer;
+}
